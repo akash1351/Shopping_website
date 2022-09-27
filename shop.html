@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="CodeHim">
+  <title>BoAt Products</title>
+
+  <link rel="stylesheet" href="shop_style.css">
+  <link rel="stylesheet" href="shop1.css">
+
+</head>
+<header class="con">
+  <nav class="flex spacebetween">
+    <div class="left flex">
+      <img src="" />
+      <ul class="flex items-center justify-center uppercase semibold">
+        <li>Home</li>
+        <li>Speakers</li>
+        <li>NeckBand</li>
+        <li>Earbuds</li>
+        <li>Watches</li>
+      </ul>
+    </div>
+    <div class="right flex items-center">
+      <input class="search" placeholder="Search for products,brands and more" type="text">
+      <form action="">
+        <input class="rightnav" type="submit" value="PROFILE" />
+      </form>
+      <form action="">
+        <input class="rightnav" type="submit" value="WISHLIST" />
+      </form>
+    </div>
+  </nav>
+</header>
+
+<body class="body1">
+
+  <main>
+
+    <div class="container">
+      <h1>BoAt Shopping Page</h1>
+      <p>BoAt-LifeStyle</p>
+      <p>Click 'Add Product' to buy product.</p>
+      <div id="alerts"></div>
+      <div class="productcont">
+        <div class="product">
+          <h3 class="productname">Boat Airpods 131</h3>
+          <img class="dim" src="C:\Users\kushg\Downloads\product_1.png" alt="">
+          <p></p>
+          <p class="price">Rs 1099</p>
+          <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <h3 class="productname">Boat Airdops 148</h3>
+          <img class="dim" src="C:\Users\kushg\Downloads\product2.png" alt="">
+          <p></p>
+          <p class="price">Rs 1299</p>
+          <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <h3 class="productname">Boat Airdops 141</h3>
+          <img class="dim" src="C:\Users\kushg\Downloads\product3.png" alt="">
+          <p></p>
+          <p class="price">Rs 1499</p>
+          <button class="addtocart">Add To Cart</button>
+        </div>
+      </div>
+      <div class="cart-container">
+        <h2>Cart</h2>
+        <table>
+          <thead>
+            <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+          </thead>
+          <tbody id="carttable">
+          </tbody>
+        </table>
+        <hr>
+        <table id="carttotals">
+          <tr>
+            <td><strong>Items</strong></td>
+            <td><strong>Total</strong></td>
+          </tr>
+          <tr>
+            <td>x <span id="itemsquantity">0</span></td>
+
+            <td>Rs<span id="total">0</span></td>
+          </tr>
+        </table>
+
+
+        <div class="cart-buttons">
+          <button id="emptycart">Empty Cart</button>
+          <button id="checkout">Checkout</button>
+        </div>
+      </div>
+    </div>
+      
+
+  </main>
+
+
+  <footer class="credit">Created By - Akash Gautam</footer>
+
+  <script src="shop.js"></script>
+</body>
+
+</html>
